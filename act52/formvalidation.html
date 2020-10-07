@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <h3>Registration Form</h3>
+<body>
+  <table>
+    <tr>
+      <td>Name</td>
+        <td>
+          <input type="text" 
+                id="fname" 
+                name="fname"
+                aria-label="required"
+                minlength="1"
+                placeholder="First name"/>
+          <input type="text" 
+                id="lname" 
+                name="lname"
+                aria-label="required"
+                minlength="1"
+                placeholder="Last name"/>
+        </td>
+      </tr>
+      <tr colspan ="2">
+        <td>Email Adress</td>
+        <td nonvalidate>
+            <input type="email" id="mail" name="mail" required minlength="8" placeholder="jdoe@uiceduph"/>
+            <span class="error" aria-live="polite"></span>
+        </td>
+      </tr>
+      <tr colspan="2">
+        <td>Password</td>
+        <td><input type="password" id="enPassword" aria-label="required" minlength="8" name="enPassword" /></td>
+      </tr>
+      <tr colspan="2">
+        <td>Confirm Password</td>
+        <td><input type="password" id="conPassword" aria-label="required" minlength="8" name="conPassword" /></td>
+      </tr>
+      <tr colspan = "2">
+        <td>Contact Number</td>
+        <td>
+        +639 - 
+        <input class="tel1"  name="tel2" type="number" pattern="[0-9]{3}" placeholder="####" aria-label="4-digit prefix" size="4"/> - 
+        <input class="tel2"  name="tel3" type="number" pattern="[0-9]{4}" placeholder="#####" aria-label="5-digit number" size="5"/>  
+      </td>
+      </tr>
+      <tr colspan="2">
+        <td>Gender</td>
+        <td>
+          <input type="radio" 
+                  id="male" 
+                  required name="Gender"
+                  value = "Male"
+                  selected="selected"/>
+          <label for="male">Male</label>
+          <input type="radio"
+                  id="female"
+                  required name="Gender"
+                  value="Female"/>
+          <label for="female">Female</label>            
+        </td>
+      </tr>
+      <tr colspan="2">
+        <td>Attach your 2x2 photo:</td>
+        <td class="photo" align="right"><input type="file" aria-label="required"></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          Register as
+          <select name="drpType" id="drpType">
+            <option value="Student">Student</option>
+            <option value="Faculty">Faculty</option>
+            <option value="Staff">Staff</option>
+            <option value="Admin">Admin</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="checkbox" 
+                  id="cbxPolicy1"
+                  name="cbxPolicy1"
+                  value="I have read the university privacy policy"/>
+          <label for="cbxPolicy1">I have read the university pricvacy policy</label>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="checkbox" 
+                  id="cbxPolicy2"
+                  name="cbxPolicy2"
+                  value="I agree with the university privacy policy"/>
+          <label for="cbxPolicy2">I agree with the university privacy policy</label>
+        </td>
+      </tr>  
+      <tr align="right">
+        <td></td>
+        <td>
+          <button type="submit" onclick="alert('Your information has all been submitted')">Submit</button>
+        </td>
+      </tr>   
+    </table>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
