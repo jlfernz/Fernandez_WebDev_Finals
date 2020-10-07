@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Fixed Width Container</h2>
+        This is a simple web page with fixed width container by using <code>.container</code> class.
+
+        <div>
+            <img class="rounded" src="http://lorempixel.com/400/200/sports/1" alt="" />
+            <img class="rounded-circle" src="http://lorempixel.com/200/200/sports/2" alt="" />
+            <img class="img-thumbnail" src="http://lorempixel.com/400/200/sports/3" alt="" />
+        </div>
+    </div>
+
+    <div class="container">
+        <table class="table table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Player</th>
+                    <th>Country</th>
+                    <th>Ranking</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Virat Kohli</td>
+                    <td>India</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Joe Root</td>
+                    <td>England</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Steven Smith</td>
+                    <td>Australia</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+
+    <div class="container">
+        <div class="alert alert-primary">primary alert - This an ordinary message!</div>
+        <h1>Welcome to <span class="badge badge-danger">CS344</span></h1>
+        <span class="badge badge-pill badge-success">Success Badge</span>
+        <button type="button" class="btn btn-primary">
+            <span class="fa fa-camera fa-1x"></span>    
+            Inbox <span class="badge badge-pill badge-light">4</span>
+        </button>
+        <span class="fa fa-camera fa-5x"></span>
+        <span class="fa fa-users fa-3x"></span>
+    </div>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="boostrap/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="boostrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
