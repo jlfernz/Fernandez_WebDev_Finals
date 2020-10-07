@@ -5,14 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- CSS only -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="bootstrap/css/custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <div class="container">
-        <h2>Fixed Width Container</h2>
-        This is a simple web page with fixed width container by using <code>.container</code> class.
+        
+        <h2>Hands On</h2>
+        <nav class="navbar navbar-expand-lg">
+            
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">World</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Politics</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Business</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Science</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Tech</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Travel</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Health</a>
+                  </li>
+            </div>
+          </nav>
 
         <div>
             <img class="rounded" src="http://lorempixel.com/400/200/sports/1" alt="" />
@@ -21,47 +55,7 @@
         </div>
     </div>
 
-    <div class="container">
-        <table class="table table-hover">
-            <thead class="table-dark">
-                <tr>
-                    <th>Player</th>
-                    <th>Country</th>
-                    <th>Ranking</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Virat Kohli</td>
-                    <td>India</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>Joe Root</td>
-                    <td>England</td>
-                    <td>2</td>
-                </tr>
-                <tr>
-                    <td>Steven Smith</td>
-                    <td>Australia</td>
-                    <td>3</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
     
-
-    <div class="container">
-        <div class="alert alert-primary">primary alert - This an ordinary message!</div>
-        <h1>Welcome to <span class="badge badge-danger">CS344</span></h1>
-        <span class="badge badge-pill badge-success">Success Badge</span>
-        <button type="button" class="btn btn-primary">
-            <span class="fa fa-camera fa-1x"></span>    
-            Inbox <span class="badge badge-pill badge-light">4</span>
-        </button>
-        <span class="fa fa-camera fa-5x"></span>
-        <span class="fa fa-users fa-3x"></span>
-    </div>
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="boostrap/js/jquery-3.5.1.slim.min.js"></script>
