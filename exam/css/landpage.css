@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    font-family: sans-serif;
+}
+.palit {
+    width: 40%;
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-bottom: -10px;
+    float: left;
+}
+.store {
+    padding-top: -20px;
+    margin-left: 10px;
+    float: left;
+    width: 60%;
+}
+.login {
+    width: 500px;
+    padding-top: 50px;
+    padding-right: 60px;
+}
+.form {
+    background: rgb(52, 128, 172);
+    max-width: 500px;
+    padding: 60px;
+    text-align: center;
+    float: right;
+    margin-top: 30px;
+    margin-right: 60px;
+    z-index: 1;
+    border-radius: 10px;
+}
+.form input {
+    outline: none;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.form button {
+    text-transform: uppercase;
+    outline: none;
+    background: orange;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.click {
+    text-decoration: none;
+    color: white;
+}
+.form button:hover, .form button:active{
+    background: rgb(0, 0, 0);
+    color:  rgb(0, 0, 0);
+    border: none;
+}
+.form .message {
+    margin: 15px 0 0;
+    color: white;
+    font-size: 15px;
+}
+.form .message a {
+    color: orange;
+    text-decoration: none;
+}
+.registerform {
+    display: none;
+}
+input:invalid {
+    color: red;
+}
+input:valid {
+    color: gray;
+}

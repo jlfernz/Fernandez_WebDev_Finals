@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palit Na!</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!----------------------------- NavBar ---------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img class="palit" src="assets/img/palit na.png">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav float-center">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="product.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://jlfernz.github.io/Fernandez_WebDev_Midterm/exam/part2b/Fernandez_portfolio.html" target="_blank">Portfolio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="members.html">Members</a>
+            </li>
+        </ul>
+      </div>
+      <div class="userinfo">
+          <a class="name" href="#">John Doe</a>
+          <img class="user" src="assets/img/user-profile.png">
+      </div>
+    </nav>
+    <!----------------------------- carousel ---------------------------->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/qr.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/jobfair.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/farmers.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!----------------------------- survey ---------------------------->
+    <div class="home">
+      <div class="survey">
+        <h3>Survey:</h3>
+        <div>
+          <p>Have you traveled outside the country this month?</p>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline1">Yes</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline2">No</label>
+          </div>
+        </div>
+        <br>
+        <div>
+          <p>Have you come into contact with anyone who has traveled outside the country this month?</p>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline3" name="customRadioInline2" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline3">Yes</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline4" name="customRadioInline2" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline4">No</label>
+          </div>
+        </div>
+        <br>
+        <div>
+          <p>Are you currently experiencing or have you previously experienced any of the following symptoms? (Check all that apply)</p>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheck1">
+            <label class="custom-control-label" for="customCheck1">Loss of taste</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheck2">
+            <label class="custom-control-label" for="customCheck2">Loss of smell</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheck3">
+            <label class="custom-control-label" for="customCheck3">Shortness of reath</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheck4">
+            <label class="custom-control-label" for="customCheck4">Cough</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customCheck5">
+            <label class="custom-control-label" for="customCheck5">Fever</label>
+          </div>
+        </div>
+        <br>
+        <div>
+          <p>Have you been in close contact with someone who has been exposed?</p>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline5" name="customRadioInline3" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline5">Yes</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="customRadioInline6" name="customRadioInline3" class="custom-control-input">
+            <label class="custom-control-label" for="customRadioInline6">No</label>
+          </div>
+        </div>
+        <button class="submit" type="button" onclick="alert('Thank you for answering the survey')">Submit</button>
+      </div>
+      <!----------------------------- feature ---------------------------->
+      <div class="feature">
+        <h2>Featured Items</h2>
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col mb-4 card-space">
+            <div class="card">
+              <img src="assets/img/rattanbag.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Rattan Shoulder Bag</h5>
+                <p class="card-text">$250.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 card-space">
+            <div class="card">
+              <img src="assets/img/spatula.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Laddle and Spatula</h5>
+                <p class="card-text">$100.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 card-space">
+            <div class="card">
+              <img src="assets/img/skincare.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Glossier</h5>
+                <p class="card-text">200.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 card-space">
+            <div class="card">
+              <img src="assets/img/formen.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Watch, Pocket & Belt</h5>
+                <p class="card-text">$300.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 card-space">
+            <div class="card">
+              <img src="assets/img/saging.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Banana</h5>
+                <p class="card-text">$30.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4 card-space">
+            <div class="card">
+              <img src="assets/img/phonecase.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Phonecase</h5>
+                <p class="card-text">$10.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-me">
+      <p>Contact us through these social media platforms...</p>
+      <div class="social-icons2">
+        <a href="https://www.facebook.com/jayellepeeef"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/JayEllexRx"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/jayellepeeef/"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/jlfernz"><i class="fab fa-github"></i></a>
+        <a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl#inbox"><i class="fab fa-google"></i></a>
+      </div>
+    </div>
+    <footer>
+      <p class="copyright">Copyright by Palit na!</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

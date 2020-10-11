@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palit Na!</title>
+    <link rel="stylesheet" href="css/bootstrap.min.csss">
+    <link rel="stylesheet" href="css/landpage.css">
+</head>
+<body>
+    <img class="palit" src="assets/img/palit na.png">
+    <img class="store" src="assets/img/landing.jpg">
+    <div class="form">
+        <form class="registerform">
+            <input type="text" aria-label="required" placeholder="Username">
+            <input type="password" aria-label="required" minlength="8" placeholder="Password">
+            <input type="email" aria-label="required" required minlength="8" placeholder="Email">
+            <button type="button" onclick="alert('Congratulations! You are now registered')"><a class="click" href="home.html">REGISTER NOW</a></button>
+            <p class="message">Already Registered? <a href="#">Login</a></p>
+        </form>
+        <form class="loginform">
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <button type="button"><a class="click" href="home.html">LOG IN</a></button>
+            <p class="message">Not Registered yet? <a href="#">Register here</a></p>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $('.message a').click(function()
+        {
+            $('form').animate({height:"toggle", opacity:"toggle"},"slow");
+        });
+    </script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+</html>
